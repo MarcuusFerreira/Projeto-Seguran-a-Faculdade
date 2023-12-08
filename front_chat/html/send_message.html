@@ -1,0 +1,22 @@
+<html lang="pt-br">
+    <head>
+        <title>Mensagens</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../assets/send_message.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>ENVIAR MENSAGEM</h1>
+            <button id="get-message-button">Novas Mensagens</button>
+            <div class="container-box">
+                <label for="contacts">Selecione o Contato:</label>
+                <select id="e" class="contacts" required><option>Selecione...</option></select>
+                <label for="message">Mensagem:</label>
+                <input type="text" id="message" name="message" class="input-field" required>
+                <button id="sendMessage" type="submit">Enviar</button>
+            </div>
+        </div>
+        
+    </body>
+    <script src="../js/send_message.js"></script>
+</html>
